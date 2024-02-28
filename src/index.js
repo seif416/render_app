@@ -1,8 +1,8 @@
 const express = require("express");
 const path = require("path");
 const collection = require("./config");
-const bcrypt = require('bcrypt');
 require('dotenv').config();
+const bcrypt = require('bcrypt');
 
 
 const app = express();
@@ -93,7 +93,17 @@ app.post("/login", async (req, res) => {
 
 
 // Define Port for Application
-const port = 5000;
+const port = 5050;
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`)
 });
+
+
+
+
+
+
+
+
+
+//mongodb+srv://elpopseif2001:GHTJlLB5skWOmaRz@cluster0.rqc9tmx.mongodb.net/

@@ -1,6 +1,5 @@
-const { name } = require('ejs');
 const mongoose = require('mongoose');
-const connect = mongoose.connect("mongodb://localhost:27017/Login-tut");
+const connect = mongoose.connect("mongodb+srv://elpopseif2001:GHTJlLB5skWOmaRz@cluster0.rqc9tmx.mongodb.net/");
 
 // Check database connected or not
 connect.then(() => {
